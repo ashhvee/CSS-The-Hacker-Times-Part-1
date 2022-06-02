@@ -26,6 +26,9 @@ h1 {
 .nav {
     float: center;
     text-align: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
 }
 
 ul {
@@ -57,4 +60,13 @@ h5 {
 
 p, .date {
     font-family: "Source Sans Pro";
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+  
+.grid-item {
+    text-align: center;
 }
