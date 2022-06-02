@@ -60,13 +60,20 @@ h5 {
 
 p, .date {
     font-family: "Source Sans Pro";
+    text-align: justify;
 }
 
 .grid-container {
     display: inline-grid;
     grid-template-columns: auto auto auto;
+    column-gap: 25px;
+    row-gap: 25px;
 }
   
 .grid-item {
-    text-align: center;
+    text-align: justify;
+}
+
+.grid-item2 {
+    text-align: justify;
 }
